@@ -1,6 +1,6 @@
 FROM amazonlinux:2.0.20201218.1
 
-# Default version 0.46
+# Default version 0.62
 ARG po4a_hash="a2c9de0a"
 
 # Installing a Dependency Library
