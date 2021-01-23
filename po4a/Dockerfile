@@ -13,3 +13,5 @@ ENV LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8
 
 RUN git clone https://github.com/mquinson/po4a.git && cd po4a/ && \
 git checkout ${po4a_hash} && perl Build.PL && ./Build && ./Build install
+
+CMD ["/bin/bash"]
